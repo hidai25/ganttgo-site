@@ -53,7 +53,8 @@ const Privacy: React.FC = () => {
           </ul>
           <p className="text-gray-600 mb-4">We <strong>MAY</strong> share data with:</p>
           <ul className="list-disc pl-6 mb-6 text-gray-600 space-y-2">
-            <li><strong>Email Service Providers:</strong> To deliver scheduled PDF exports (email addresses and PDF attachments only)</li>
+            <li><strong>Sentry</strong> (sentry.io): For error monitoring and crash reporting. Only technical error data is sent (no personal data or board content).</li>
+            <li><strong>Resend</strong> (api.resend.com): To deliver scheduled PDF exports (email addresses and PDF attachments only).</li>
           </ul>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Data Security</h2>

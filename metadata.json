@@ -1,0 +1,5 @@
+{
+  "name": "GanttGo",
+  "description": "A Monday.com app that transforms boards into professional Gantt charts with PDF export capabilities.",
+  "requestFramePermissions": []
+}

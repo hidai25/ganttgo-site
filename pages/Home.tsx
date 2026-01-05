@@ -19,10 +19,6 @@ const Home: React.FC = () => {
       {/* Hero Section */}
       <section className="relative pt-16 pb-20 lg:pt-32 lg:pb-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50/50 border border-blue-100 backdrop-blur-sm mb-8">
-            <span className="flex h-2 w-2 rounded-full bg-monday-blue"></span>
-            <span className="text-sm font-medium text-monday-blue">New: Dark Mode Support</span>
-          </div>
           <h1 className="text-5xl tracking-tight font-extrabold text-gray-900 sm:text-6xl md:text-7xl lg:text-8xl mb-6">
             <span className="block mb-2">Transform Boards</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-monday-blue to-monday-purple">

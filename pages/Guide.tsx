@@ -20,10 +20,10 @@ const Guide: React.FC = () => {
           </div>
           <div className="prose prose-blue text-gray-600 mb-8 max-w-none">
             <p>
-              GanttGo is a Board View app. This means it lives directly on your Monday.com board tabs.
+              GanttGo is a Board View app. This means it lives directly on your monday.com board tabs.
             </p>
             <ol className="list-decimal pl-5 space-y-2 mt-4">
-              <li>Open any Monday.com board you want to visualize.</li>
+              <li>Open any monday.com board you want to visualize.</li>
               <li>Click the <strong>+</strong> icon in the views bar (next to "Main Table").</li>
               <li>Select <strong>Apps</strong> or "Explore more apps".</li>
               <li>Search for "GanttGo" and click <strong>Add to Board</strong>.</li>

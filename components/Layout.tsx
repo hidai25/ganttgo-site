@@ -62,7 +62,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 rel="noopener noreferrer"
                 className="bg-monday-blue/90 hover:bg-monday-blue text-white px-6 py-2.5 rounded-full text-sm font-medium transition-all shadow-lg shadow-monday-blue/20 hover:shadow-monday-blue/40 hover:-translate-y-0.5 backdrop-blur-sm"
               >
-                Get it on Monday.com
+                Get it on monday.com
               </a>
             </nav>
 
@@ -96,7 +96,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 rel="noopener noreferrer"
                 className="block w-full text-center mt-4 bg-monday-blue text-white px-5 py-3 rounded-xl text-base font-medium shadow-lg shadow-monday-blue/20"
               >
-                Get it on Monday.com
+                Get it on monday.com
               </a>
             </div>
           </div>
@@ -118,7 +118,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <span className="text-lg font-bold text-gray-900">GanttGo</span>
               </Link>
               <p className="text-gray-500 text-sm leading-relaxed">
-                Professional Gantt chart exports for your Monday.com boards.
+                Professional Gantt chart exports for your monday.com boards.
               </p>
             </div>
             

@@ -14,7 +14,7 @@ const Terms: React.FC = () => {
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">2. Description of Service</h2>
-          <p className="text-gray-600 mb-4">GanttGo is a Monday.com board view application that:</p>
+          <p className="text-gray-600 mb-4">GanttGo is a monday.com board view application that:</p>
           <ul className="list-disc pl-6 mb-6 text-gray-600 space-y-2">
             <li>Displays board items as interactive Gantt charts</li>
             <li>Exports Gantt charts to PDF format</li>
@@ -22,10 +22,10 @@ const Terms: React.FC = () => {
           </ul>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">3. User Accounts and Access</h2>
-          <h3 className="text-xl font-bold text-gray-900 mt-8 mb-3">3.1 Monday.com Account</h3>
-          <p className="text-gray-600 mb-4">You must have a valid Monday.com account to use this App. Your use of Monday.com is governed by Monday.com's own Terms of Service.</p>
+          <h3 className="text-xl font-bold text-gray-900 mt-8 mb-3">3.1 monday.com Account</h3>
+          <p className="text-gray-600 mb-4">You must have a valid monday.com account to use this App. Your use of monday.com is governed by monday.com's own Terms of Service.</p>
           <h3 className="text-xl font-bold text-gray-900 mt-8 mb-3">3.2 Authorization</h3>
-          <p className="text-gray-600 mb-6">By installing the App, you authorize us to access your Monday.com board data as described in our Privacy Policy.</p>
+          <p className="text-gray-600 mb-6">By installing the App, you authorize us to access your monday.com board data as described in our Privacy Policy.</p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">4. Subscription Plans</h2>
           
@@ -50,7 +50,7 @@ const Terms: React.FC = () => {
           <h3 className="text-xl font-bold text-gray-900 mt-8 mb-3">4.3 Billing</h3>
           <ul className="list-disc pl-6 mb-6 text-gray-600 space-y-2">
             <li>Pro subscriptions are billed monthly</li>
-            <li>Payments are processed through Monday.com's billing system</li>
+            <li>Payments are processed through monday.com's billing system</li>
             <li>Prices are subject to change with 30 days notice</li>
           </ul>
 
@@ -68,7 +68,7 @@ const Terms: React.FC = () => {
           <h3 className="text-xl font-bold text-gray-900 mt-8 mb-3">6.1 Our Rights</h3>
           <p className="text-gray-600 mb-4">The App, including its code, design, and documentation, is owned by GanttGo and protected by intellectual property laws.</p>
           <h3 className="text-xl font-bold text-gray-900 mt-8 mb-3">6.2 Your Rights</h3>
-          <p className="text-gray-600 mb-4">You retain all rights to your Monday.com data. We claim no ownership over your board content or exported PDFs.</p>
+          <p className="text-gray-600 mb-4">You retain all rights to your monday.com data. We claim no ownership over your board content or exported PDFs.</p>
           <h3 className="text-xl font-bold text-gray-900 mt-8 mb-3">6.3 Uploaded Content</h3>
           <p className="text-gray-600 mb-6">By uploading a company logo, you confirm you have the right to use that image and grant us permission to include it in your PDF exports.</p>
 

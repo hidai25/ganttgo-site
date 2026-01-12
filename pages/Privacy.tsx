@@ -10,16 +10,16 @@ const Privacy: React.FC = () => {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Introduction</h2>
           <p className="text-gray-600 mb-6">
-            GanttGo ("we", "our", or "the App") is a Monday.com application that enables users to visualize board items as Gantt charts and export them to PDF format. This Privacy Policy explains how we collect, use, and protect your information.
+            GanttGo ("we", "our", or "the App") is a monday.com application that enables users to visualize board items as Gantt charts and export them to PDF format. This Privacy Policy explains how we collect, use, and protect your information.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Information We Collect</h2>
           
-          <h3 className="text-xl font-bold text-gray-900 mt-8 mb-3">Data from Monday.com</h3>
-          <p className="text-gray-600 mb-4">When you use GanttGo, we access the following data from your Monday.com account:</p>
+          <h3 className="text-xl font-bold text-gray-900 mt-8 mb-3">Data from monday.com</h3>
+          <p className="text-gray-600 mb-4">When you use GanttGo, we access the following data from your monday.com account:</p>
           <ul className="list-disc pl-6 mb-6 text-gray-600 space-y-2">
             <li><strong>Board Data:</strong> Item names, timeline/date column values, status values, group information, and dependencies</li>
-            <li><strong>Account Context:</strong> Your Monday.com account ID and board ID (for app functionality)</li>
+            <li><strong>Account Context:</strong> Your monday.com account ID and board ID (for app functionality)</li>
           </ul>
 
           <h3 className="text-xl font-bold text-gray-900 mt-8 mb-3">Data You Provide</h3>
@@ -39,8 +39,8 @@ const Privacy: React.FC = () => {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Data Storage</h2>
           <ul className="list-disc pl-6 mb-6 text-gray-600 space-y-2">
-            <li><strong>Board Data:</strong> Processed in real-time and not stored on our servers. Data is fetched fresh from Monday.com each time you use the app.</li>
-            <li><strong>Schedules:</strong> Stored securely using Monday.com's Secure Storage infrastructure</li>
+            <li><strong>Board Data:</strong> Processed in real-time and not stored on our servers. Data is fetched fresh from monday.com each time you use the app.</li>
+            <li><strong>Schedules:</strong> Stored securely using monday.com's Secure Storage infrastructure</li>
             <li><strong>Logos:</strong> Stored locally in your browser session only</li>
           </ul>
 
@@ -61,7 +61,7 @@ const Privacy: React.FC = () => {
           <p className="text-gray-600 mb-4">We implement industry-standard security measures:</p>
           <ul className="list-disc pl-6 mb-6 text-gray-600 space-y-2">
             <li>All API communications use HTTPS encryption</li>
-            <li>Credentials are stored in Monday.com's Secure Storage</li>
+            <li>Credentials are stored in monday.com's Secure Storage</li>
             <li>No sensitive data is logged or cached unnecessarily</li>
           </ul>
 
@@ -87,7 +87,7 @@ const Privacy: React.FC = () => {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Changes to This Policy</h2>
           <p className="text-gray-600 mb-6">
-            We may update this Privacy Policy periodically. We will notify users of significant changes through the app or Monday.com marketplace listing.
+            We may update this Privacy Policy periodically. We will notify users of significant changes through the app or monday.com marketplace listing.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Contact Us</h2>
@@ -96,9 +96,9 @@ const Privacy: React.FC = () => {
             <strong>Email:</strong> support@ganttgo.com
           </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Monday.com Compliance</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">monday.com Compliance</h2>
           <p className="text-gray-600 mb-6">
-            This app complies with Monday.com's App Marketplace Guidelines and API Terms of Service.
+            This app complies with monday.com's App Marketplace Guidelines and API Terms of Service.
           </p>
         </div>
       </div>

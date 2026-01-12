@@ -26,14 +26,14 @@ const Home: React.FC = () => {
             </span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-600 leading-relaxed">
-            Instantly visualize your Monday.com projects, manage dependencies, and export professional Gantt charts in one click.
+            Instantly visualize your monday.com projects, manage dependencies, and export professional Gantt charts in one click.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
             <a
               href="https://monday.com/marketplace"
               className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-bold rounded-xl text-white bg-monday-blue hover:bg-blue-600 transition-all shadow-lg hover:shadow-monday-blue/30 hover:-translate-y-1"
             >
-              Add to Monday.com
+              Add to monday.com
             </a>
             <a
               href="#features"

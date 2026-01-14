@@ -30,9 +30,11 @@ const Guide: React.FC = () => {
             </ol>
           </div>
           <div className="bg-gray-100 rounded-xl overflow-hidden shadow-inner border border-gray-200/50">
-            <div className="aspect-w-16 aspect-h-9 bg-gray-200 animate-pulse h-64 w-full flex items-center justify-center text-gray-400">
-               Screenshot Placeholder
-            </div>
+            <img
+              src="/images/guide-getting-started.jpg"
+              alt="Adding GanttGo to a monday.com board via the Apps menu"
+              className="w-full h-auto"
+            />
           </div>
         </div>
 
@@ -55,9 +57,11 @@ const Guide: React.FC = () => {
             </ul>
           </div>
           <div className="bg-gray-100 rounded-xl overflow-hidden shadow-inner border border-gray-200/50">
-            <div className="aspect-w-16 aspect-h-9 bg-gray-200 animate-pulse h-64 w-full flex items-center justify-center text-gray-400">
-               Screenshot Placeholder
-            </div>
+            <img
+              src="/images/guide-gantt-view.jpg"
+              alt="GanttGo Gantt chart view showing tasks organized by groups with timeline bars"
+              className="w-full h-auto"
+            />
           </div>
         </div>
 
@@ -80,9 +84,11 @@ const Guide: React.FC = () => {
             </ul>
           </div>
           <div className="bg-gray-100 rounded-xl overflow-hidden shadow-inner border border-gray-200/50">
-            <div className="aspect-w-16 aspect-h-9 bg-gray-200 animate-pulse h-64 w-full flex items-center justify-center text-gray-400">
-               Screenshot Placeholder
-            </div>
+            <img
+              src="/images/guide-export.jpg"
+              alt="GanttGo export menu showing PDF, PowerPoint, PNG, and Print options"
+              className="w-full h-auto"
+            />
           </div>
         </div>
 
@@ -109,9 +115,11 @@ const Guide: React.FC = () => {
             </p>
           </div>
           <div className="bg-gray-100 rounded-xl overflow-hidden shadow-inner border border-gray-200/50">
-            <div className="aspect-w-16 aspect-h-9 bg-gray-200 animate-pulse h-64 w-full flex items-center justify-center text-gray-400">
-               Screenshot Placeholder
-            </div>
+            <img
+              src="/images/guide-schedule.jpg"
+              alt="GanttGo schedule PDF export dialog with frequency, day, time, and email recipient options"
+              className="w-full h-auto"
+            />
           </div>
         </div>
 

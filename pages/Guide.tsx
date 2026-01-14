@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download, Layout, Settings, Mail } from 'lucide-react';
+import { Download, Layout, Settings, Mail, Percent } from 'lucide-react';
 
 const Guide: React.FC = () => {
   return (
@@ -65,13 +65,41 @@ const Guide: React.FC = () => {
           </div>
         </div>
 
-        {/* Section 3 */}
+        {/* Section 3 - Change Status */}
+        <div className="mb-12 bg-white/60 backdrop-blur-md border border-white/50 rounded-2xl p-8 shadow-sm">
+          <div className="flex items-center gap-4 mb-6">
+            <div className="bg-monday-red/10 p-3 rounded-xl text-monday-red">
+              <Percent className="h-6 w-6" />
+            </div>
+            <h2 className="text-2xl font-bold text-gray-900">3. Updating Task Progress</h2>
+          </div>
+          <div className="prose prose-blue text-gray-600 mb-8 max-w-none">
+            <p>
+              GanttGo allows you to update task progress directly from the Gantt chart view.
+            </p>
+            <ul className="list-disc pl-5 space-y-2 mt-4">
+              <li><strong>Progress Bar:</strong> Each task displays a progress percentage on the bar, showing how much of the task is complete.</li>
+              <li><strong>Click to Edit:</strong> Click on any task bar to open the task details and update the progress percentage.</li>
+              <li><strong>Visual Feedback:</strong> The progress is shown as a striped pattern on the bar - the more stripes filled, the more complete the task.</li>
+              <li><strong>Status Sync:</strong> Progress updates automatically sync back to your monday.com board in real-time.</li>
+            </ul>
+          </div>
+          <div className="bg-gray-100 rounded-xl overflow-hidden shadow-inner border border-gray-200/50">
+            <img
+              src="/images/guide-progress.jpg"
+              alt="GanttGo task progress popup showing status, progress slider, and sync confirmation"
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
+
+        {/* Section 4 */}
         <div className="mb-12 bg-white/60 backdrop-blur-md border border-white/50 rounded-2xl p-8 shadow-sm">
           <div className="flex items-center gap-4 mb-6">
             <div className="bg-monday-purple/10 p-3 rounded-xl text-monday-purple">
               <Settings className="h-6 w-6" />
             </div>
-            <h2 className="text-2xl font-bold text-gray-900">3. Exporting to PDF</h2>
+            <h2 className="text-2xl font-bold text-gray-900">4. Exporting to PDF</h2>
           </div>
           <div className="prose prose-blue text-gray-600 mb-8 max-w-none">
             <p>
@@ -92,13 +120,13 @@ const Guide: React.FC = () => {
           </div>
         </div>
 
-        {/* Section 4 */}
+        {/* Section 5 */}
         <div className="mb-12 bg-white/60 backdrop-blur-md border border-white/50 rounded-2xl p-8 shadow-sm">
           <div className="flex items-center gap-4 mb-6">
             <div className="bg-monday-yellow/10 p-3 rounded-xl text-monday-yellow">
               <Mail className="h-6 w-6" />
             </div>
-            <h2 className="text-2xl font-bold text-gray-900">4. Scheduled Reports (Pro)</h2>
+            <h2 className="text-2xl font-bold text-gray-900">5. Scheduled Reports (Pro)</h2>
           </div>
           <div className="prose prose-blue text-gray-600 mb-8 max-w-none">
             <p>

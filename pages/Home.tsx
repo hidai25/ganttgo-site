@@ -73,7 +73,7 @@ const Home: React.FC = () => {
               },
               {
                 title: 'Visual Dependencies',
-                description: 'Connect tasks visually to understand critical paths and bottlenecks.',
+                description: 'Drag to connect tasks with finish-to-start dependencies. Critical path shown in red.',
                 icon: LayoutIcon,
                 color: 'text-monday-purple',
                 bg: 'bg-purple-50'
@@ -94,7 +94,7 @@ const Home: React.FC = () => {
               },
               {
                 title: 'Scheduled Reports',
-                description: 'Automatically email updated Gantt charts to your team on a schedule.',
+                description: 'Automatically email PDF exports daily, weekly, or monthly to your team.',
                 icon: Clock,
                 color: 'text-gray-600',
                 bg: 'bg-gray-100'
@@ -178,7 +178,7 @@ const Home: React.FC = () => {
               <ul className="mt-8 space-y-4 flex-1">
                 <li className="flex items-center text-gray-900 font-medium">
                   <div className="bg-monday-blue/20 p-1 rounded-full mr-3"><Check className="h-3 w-3 text-monday-blue" /></div>
-                  Up to 500 items
+                  Up to 1000 items
                 </li>
                 <li className="flex items-center text-gray-900 font-medium">
                   <div className="bg-monday-blue/20 p-1 rounded-full mr-3"><Check className="h-3 w-3 text-monday-blue" /></div>

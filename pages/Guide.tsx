@@ -172,6 +172,21 @@ const Guide: React.FC = () => {
               <li><strong>Your Brand:</strong> Upload your company logo to appear on every export. <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-monday-blue/10 text-monday-blue">Pro</span></li>
               <li><strong>Show Dependencies:</strong> Toggle dependency arrows on or off in your export.</li>
             </ul>
+
+            <div className="mt-6 bg-blue-50/50 p-4 rounded-lg border border-blue-100">
+              <p className="font-semibold text-gray-900 mb-2">Exporting Large Boards</p>
+              <p className="text-sm text-gray-700 mb-3">
+                When you click "Export PDF", a loading spinner appears while generating your chart. For boards with many items:
+              </p>
+              <ul className="list-disc pl-5 space-y-1 text-sm text-gray-700">
+                <li><strong>Under 300 items:</strong> Exports smoothly</li>
+                <li><strong>300-700 items:</strong> Brief processing delay</li>
+                <li><strong>700+ items:</strong> Chrome may show "Page Unresponsive"—simply click <strong>Wait</strong> and the export will complete</li>
+              </ul>
+              <p className="text-sm text-gray-600 mt-3 italic">
+                This is normal for large client-side exports. The PDF downloads automatically once done.
+              </p>
+            </div>
           </div>
           <div className="bg-gray-100 rounded-xl overflow-hidden shadow-inner border border-gray-200/50">
             <img

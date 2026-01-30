@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download, Layout, Settings, Percent, Link2, Clock, Sparkles } from 'lucide-react';
+import { Download, Layout, Settings, Percent, Link2, Clock, Sparkles, FileSpreadsheet, CalendarOff, Presentation, Layers, Tag } from 'lucide-react';
 
 const Guide: React.FC = () => {
   return (
@@ -260,6 +260,216 @@ const Guide: React.FC = () => {
               alt="GanttGo schedule PDF export dialog with frequency, day, time, and email recipient options"
               className="w-full h-auto"
             />
+          </div>
+        </div>
+
+        {/* Section 7 - Excel Export */}
+        <div className="mb-12 bg-white/60 backdrop-blur-md border border-white/50 rounded-2xl p-8 shadow-sm">
+          <div className="flex items-center gap-4 mb-6">
+            <div className="bg-green-500/10 p-3 rounded-xl text-green-600">
+              <FileSpreadsheet className="h-6 w-6" />
+            </div>
+            <h2 className="text-2xl font-bold text-gray-900">7. Excel Export</h2>
+          </div>
+          <div className="prose prose-blue text-gray-600 mb-8 max-w-none">
+            <p>
+              Export your Gantt chart data to a professional Excel spreadsheet—perfect for detailed analysis, reporting, or sharing with teams who prefer working in spreadsheets.
+            </p>
+
+            <h4 className="text-lg font-semibold text-gray-800 mt-6 mb-3">How to Export</h4>
+            <ol className="list-decimal pl-5 space-y-2">
+              <li>Click the <strong>Export</strong> button in the toolbar.</li>
+              <li>Select <strong>Excel...</strong> from the menu.</li>
+              <li>Configure your export options and click Export.</li>
+            </ol>
+
+            <h4 className="text-lg font-semibold text-gray-800 mt-6 mb-3">Export Options</h4>
+            <ul className="list-disc pl-5 space-y-2">
+              <li><strong>Title:</strong> Add a custom header to your spreadsheet.</li>
+              <li><strong>Date Format:</strong> Choose Auto (browser locale), US (MM/DD/YYYY), EU (DD/MM/YYYY), or ISO (YYYY-MM-DD).</li>
+              <li><strong>Columns:</strong> Select exactly what data to include—Task Name, Start/End Dates, Status, Group, Dependencies, or Progress %.</li>
+            </ul>
+
+            <div className="mt-6 bg-green-50/50 p-4 rounded-lg border border-green-100">
+              <p className="font-semibold text-gray-900 mb-2">Built-in Excel Features</p>
+              <ul className="list-disc pl-5 space-y-1 text-sm text-gray-700">
+                <li>Status-colored cells for instant visual scanning</li>
+                <li>Frozen header row for easy scrolling through large datasets</li>
+                <li>Auto-filter enabled on all columns</li>
+                <li>Progress data bars for visual completion tracking</li>
+                <li>Alternating row colors for improved readability</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Section 8 - PowerPoint Export */}
+        <div className="mb-12 bg-white/60 backdrop-blur-md border border-white/50 rounded-2xl p-8 shadow-sm">
+          <div className="flex items-center gap-4 mb-6">
+            <div className="bg-orange-500/10 p-3 rounded-xl text-orange-500">
+              <Presentation className="h-6 w-6" />
+            </div>
+            <h2 className="text-2xl font-bold text-gray-900">8. PowerPoint Export</h2>
+          </div>
+          <div className="prose prose-blue text-gray-600 mb-8 max-w-none">
+            <p>
+              Create presentation-ready slides from your Gantt chart in seconds. Ideal for stakeholder meetings, project reviews, and executive updates.
+            </p>
+
+            <h4 className="text-lg font-semibold text-gray-800 mt-6 mb-3">How to Export</h4>
+            <ol className="list-decimal pl-5 space-y-2">
+              <li>Click <strong>Export → PowerPoint...</strong></li>
+              <li>Configure your presentation options.</li>
+              <li>Click <strong>Export PowerPoint</strong>.</li>
+            </ol>
+
+            <h4 className="text-lg font-semibold text-gray-800 mt-6 mb-3">Export Options</h4>
+            <ul className="list-disc pl-5 space-y-2">
+              <li><strong>Title:</strong> Custom presentation title for the cover slide.</li>
+              <li><strong>Date Format:</strong> Auto, US, EU, or ISO format.</li>
+              <li><strong>Columns:</strong> Choose which data columns appear in your task table.</li>
+              <li><strong>Slide Size:</strong> A4, Letter, Legal, A3, or Tabloid.</li>
+            </ul>
+
+            <div className="mt-6 bg-orange-50/50 p-4 rounded-lg border border-orange-100">
+              <p className="font-semibold text-gray-900 mb-2">What You Get</p>
+              <ul className="list-disc pl-5 space-y-1 text-sm text-gray-700">
+                <li>Title slide with your board name</li>
+                <li>Task table slide with your selected columns</li>
+                <li>Professional formatting with status colors</li>
+                <li>Fully editable in PowerPoint for further customization</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Section 9 - Holidays & Non-Working Days */}
+        <div className="mb-12 bg-white/60 backdrop-blur-md border border-white/50 rounded-2xl p-8 shadow-sm">
+          <div className="flex items-center gap-4 mb-6">
+            <div className="bg-red-500/10 p-3 rounded-xl text-red-500">
+              <CalendarOff className="h-6 w-6" />
+            </div>
+            <h2 className="text-2xl font-bold text-gray-900">9. Holidays & Non-Working Days</h2>
+          </div>
+          <div className="prose prose-blue text-gray-600 mb-8 max-w-none">
+            <p>
+              Visualize weekends, holidays, and blackout periods directly on your Gantt chart. No more accidentally scheduling work on Christmas or missing a bank holiday deadline.
+            </p>
+
+            <h4 className="text-lg font-semibold text-gray-800 mt-6 mb-3">How to Enable</h4>
+            <ol className="list-decimal pl-5 space-y-2">
+              <li>Click the <strong>Settings (⚙)</strong> button.</li>
+              <li>Toggle <strong>Holidays</strong> to ON.</li>
+              <li>Click the configure button to customize your non-working days.</li>
+            </ol>
+
+            <h4 className="text-lg font-semibold text-gray-800 mt-6 mb-3">Weekend Settings</h4>
+            <ul className="list-disc pl-5 space-y-2">
+              <li><strong>Standard (Sat-Sun):</strong> Most countries worldwide.</li>
+              <li><strong>Middle East (Fri-Sat):</strong> UAE, Saudi Arabia, and similar regions.</li>
+              <li><strong>Israel (Fri-Sat):</strong> Friday-Saturday weekend.</li>
+              <li><strong>Custom:</strong> Select any combination of days that works for your team.</li>
+            </ul>
+
+            <div className="mt-6 grid md:grid-cols-2 gap-4">
+              <div className="bg-blue-50/50 p-4 rounded-lg border border-blue-100">
+                <div className="flex items-center gap-2 mb-2">
+                  <p className="font-semibold text-gray-900">Holiday Presets</p>
+                  <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-monday-blue/10 text-monday-blue">Pro</span>
+                </div>
+                <ul className="list-disc pl-5 space-y-1 text-sm text-gray-700">
+                  <li>US Federal Holidays</li>
+                  <li>UK Bank Holidays</li>
+                  <li>Canada Statutory Holidays</li>
+                  <li>Australia Public Holidays</li>
+                  <li>EU Common Holidays</li>
+                </ul>
+              </div>
+              <div className="bg-purple-50/50 p-4 rounded-lg border border-purple-100">
+                <div className="flex items-center gap-2 mb-2">
+                  <p className="font-semibold text-gray-900">Custom Holidays</p>
+                  <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-monday-blue/10 text-monday-blue">Pro</span>
+                </div>
+                <ul className="list-disc pl-5 space-y-1 text-sm text-gray-700">
+                  <li>Add any date as a holiday</li>
+                  <li>Mark as recurring (yearly)</li>
+                  <li>Set as Holiday or Blackout type</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="mt-6 bg-green-50/50 p-4 rounded-lg border border-green-100">
+              <p className="font-semibold text-gray-900 mb-2">Smart Scheduling</p>
+              <p className="text-sm text-gray-700">
+                When you drag tasks to reschedule them, GanttGo automatically skips non-working days—so tasks always land on valid working dates.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Section 10 - Task Labels on Bars */}
+        <div className="mb-12 bg-white/60 backdrop-blur-md border border-white/50 rounded-2xl p-8 shadow-sm">
+          <div className="flex items-center gap-4 mb-6">
+            <div className="bg-indigo-500/10 p-3 rounded-xl text-indigo-500">
+              <Tag className="h-6 w-6" />
+            </div>
+            <h2 className="text-2xl font-bold text-gray-900">10. Task Labels on Bars</h2>
+          </div>
+          <div className="prose prose-blue text-gray-600 mb-8 max-w-none">
+            <p>
+              Display task names directly on the Gantt bars for instant identification—no more hovering or cross-referencing the task list.
+            </p>
+
+            <h4 className="text-lg font-semibold text-gray-800 mt-6 mb-3">How to Enable</h4>
+            <ol className="list-decimal pl-5 space-y-2">
+              <li>Click <strong>Settings (⚙)</strong>.</li>
+              <li>Toggle <strong>Task Labels</strong> to ON.</li>
+            </ol>
+
+            <div className="mt-6 bg-indigo-50/50 p-4 rounded-lg border border-indigo-100">
+              <p className="font-semibold text-gray-900 mb-2">Smart Label Positioning</p>
+              <ul className="list-disc pl-5 space-y-1 text-sm text-gray-700">
+                <li><strong>Wide bars:</strong> Labels appear inside the bar for a clean look.</li>
+                <li><strong>Narrow bars:</strong> Labels automatically move outside (to the right) so they're always readable.</li>
+                <li><strong>Progress %:</strong> When enabled, completion percentage displays alongside the task name.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Section 11 - Subitems Support */}
+        <div className="mb-12 bg-white/60 backdrop-blur-md border border-white/50 rounded-2xl p-8 shadow-sm">
+          <div className="flex items-center gap-4 mb-6">
+            <div className="bg-teal-500/10 p-3 rounded-xl text-teal-500">
+              <Layers className="h-6 w-6" />
+            </div>
+            <h2 className="text-2xl font-bold text-gray-900">11. Subitems Support</h2>
+          </div>
+          <div className="prose prose-blue text-gray-600 mb-8 max-w-none">
+            <p>
+              GanttGo now displays monday.com subitems within your Gantt chart, maintaining the parent-child hierarchy you've already set up in your board.
+            </p>
+
+            <h4 className="text-lg font-semibold text-gray-800 mt-6 mb-3">How It Works</h4>
+            <ul className="list-disc pl-5 space-y-2">
+              <li><strong>Visual Hierarchy:</strong> Subitems appear indented below their parent task with connector lines showing the relationship.</li>
+              <li><strong>Expand/Collapse:</strong> Click the ▼/▶ button on parent tasks to show or hide their subitems.</li>
+              <li><strong>Distinct Styling:</strong> Subitems have a slightly smaller, lighter appearance to maintain visual clarity.</li>
+            </ul>
+
+            <h4 className="text-lg font-semibold text-gray-800 mt-6 mb-3">Subitem Features</h4>
+            <ul className="list-disc pl-5 space-y-2">
+              <li><strong>Drag to Reschedule:</strong> Drag subitems just like regular tasks to change their dates.</li>
+              <li><strong>Dependencies:</strong> Create dependencies between subitems of the same parent.</li>
+              <li><strong>Independent Timeline:</strong> Subitems use their own timeline column, separate from the parent's dates.</li>
+            </ul>
+
+            <div className="mt-6 bg-gray-100 p-4 rounded-lg border border-gray-200">
+              <p className="font-semibold text-gray-900 mb-2">Good to Know</p>
+              <p className="text-sm text-gray-700">
+                Cross-level dependencies (subitem-to-item) are not supported since subitems are inherently dependent on their parent task's existence.
+              </p>
+            </div>
           </div>
         </div>
 

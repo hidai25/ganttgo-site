@@ -6,7 +6,7 @@ const Privacy: React.FC = () => {
       <div className="bg-white/70 backdrop-blur-xl border border-white/50 rounded-2xl p-8 md:p-12 shadow-sm">
         <div className="prose prose-lg prose-blue mx-auto">
           <h1 className="text-3xl font-bold text-gray-900 mb-8">Privacy Policy for GanttGo</h1>
-          <p className="text-gray-600 mb-8 bg-blue-50/50 p-4 rounded-lg inline-block text-sm font-medium"><strong>Last Updated:</strong> December 2025</p>
+          <p className="text-gray-600 mb-8 bg-blue-50/50 p-4 rounded-lg inline-block text-sm font-medium"><strong>Last Updated:</strong> March 2026</p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Introduction</h2>
           <p className="text-gray-600 mb-6">
@@ -29,12 +29,24 @@ const Privacy: React.FC = () => {
             <li><strong>Schedule Preferences:</strong> Frequency and timing for automated exports</li>
           </ul>
 
+          <h3 className="text-xl font-bold text-gray-900 mt-8 mb-3">Product Analytics</h3>
+          <p className="text-gray-600 mb-4">We use <strong>Mixpanel</strong> (mixpanel.com) to collect anonymous usage analytics to improve our product. This includes:</p>
+          <ul className="list-disc pl-6 mb-4 text-gray-600 space-y-2">
+            <li>Monday.com account ID and user ID (no names, emails, or personal information)</li>
+            <li>Feature usage events (e.g., which export format was used, view mode selected, features toggled)</li>
+            <li>Aggregate metrics like item counts per board</li>
+          </ul>
+          <p className="text-gray-600 mb-6">
+            Mixpanel does not receive IP addresses, board content, item names, or any personally identifiable information.
+          </p>
+
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">How We Use Your Information</h2>
           <p className="text-gray-600 mb-4">We use the collected information solely to:</p>
           <ol className="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
             <li><strong>Render Gantt Charts:</strong> Display your board items in a visual timeline format</li>
             <li><strong>Generate PDFs:</strong> Create exportable PDF documents of your Gantt charts</li>
             <li><strong>Send Scheduled Exports:</strong> Deliver automated PDF reports to specified email addresses (Pro feature)</li>
+            <li><strong>Improve the Product:</strong> Analyze anonymous usage patterns to prioritize features and fix issues</li>
           </ol>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Data Storage</h2>
@@ -55,6 +67,7 @@ const Privacy: React.FC = () => {
           <ul className="list-disc pl-6 mb-6 text-gray-600 space-y-2">
             <li><strong>Sentry</strong> (sentry.io): For error monitoring and crash reporting. Only technical error data is sent (no personal data or board content).</li>
             <li><strong>Resend</strong> (api.resend.com): To deliver scheduled PDF exports (email addresses and PDF attachments only).</li>
+            <li><strong>Mixpanel</strong> (mixpanel.com): Anonymous usage analytics (account ID, feature usage counts). No personal data or board content is shared. See <a href="https://mixpanel.com/legal/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Mixpanel's privacy policy</a>.</li>
           </ul>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Data Security</h2>
